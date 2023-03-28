@@ -1,0 +1,31 @@
+.menu {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    border: 1px solid white;
+}
+.menu .container {
+    text-align: center;
+    border: 1px solid white;
+}
+.menu img {
+    width: 400px;
+}
+.menu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.menu__left,
+.menu__right {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    gap: 1rem;
+    flex: 1;
+} 
+.menu__middle {
+    margin: 0 6rem;
+}

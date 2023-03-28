@@ -1,0 +1,48 @@
+.about {
+    background-image: url('../../assets/bg.png');
+    color: white;
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+h1 {
+    font-size: 4rem;
+}
+.about .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__left,
+.about__right {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    z-index: 1;
+}
+.about__left {
+    text-align: right;
+}
+.about__left .btn {
+    margin-left: auto;
+}
+.about__right {
+    text-align: left;
+}
+.about__middle {
+    margin: 0 6rem;
+}
+.G {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 400px;
+    z-index: 0;
+}
+.knife {
+    width: 100px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    z-index: 1;
+}

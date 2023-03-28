@@ -4,11 +4,17 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: brown;
+    background-color: black;
+    display: flex;
+}
+.nav-container {
+    flex: 1;
+    max-width: 90%;
+    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
+    margin: auto;
 }
 nav img {
     height: 50px;
@@ -20,6 +26,7 @@ nav a {
 }
 .hidden {
     display: none;
+    color: white;
 }
 @media (max-width: 1000px) {
     .middle {

@@ -8,6 +8,7 @@
 .menu .container {
     text-align: center;
     border: 1px solid white;
+    width: 100%;
 }
 .menu img {
     width: 400px;

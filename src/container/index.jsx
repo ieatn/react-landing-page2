@@ -5,6 +5,7 @@ import Chef from './Chef/Chef'
 import Video from './Video/Video'
 import Awards from './Awards/Awards'
 import Gallery from './Gallery/Gallery'
+import Contact from './Contact/Contact'
 
 export {
     Hero,
@@ -13,5 +14,6 @@ export {
     Chef,
     Video,
     Awards,
-    Gallery
+    Gallery,
+    Contact
 }

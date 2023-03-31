@@ -17,7 +17,7 @@
     flex: 1;
 }
 .hero img {
-    width: 400px;
+    width: 80%;
 }
 .hero__left {
     border: 1px solid white;

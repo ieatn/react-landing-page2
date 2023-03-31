@@ -3,11 +3,12 @@
     background-color: black;
     color: white;
     display: flex;
-    border: 1px solid white;
+}
+.menu h1 {
+    font-size: 3rem;
 }
 .menu .container {
     text-align: center;
-    border: 1px solid white;
     width: 100%;
 }
 .menu img {
@@ -17,16 +18,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
 }
 .menu__left,
 .menu__right {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
     gap: 1rem;
     flex: 1;
 } 
 .menu__middle {
     margin: 0 6rem;
+}
+@media (max-width: 1000px) {
+    .menu {
+        height: 100%;
+        padding: 2rem 0;
+    }
+    .menu-content {
+        flex-direction: column;
+    }
+    .menu img {
+        display: none;
+    }
+    .menu__left {
+        margin: 3rem 0;
+    }
+    .menu__right {
+        margin-bottom: 3rem;
+    }
 }

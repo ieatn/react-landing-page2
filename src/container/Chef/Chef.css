@@ -10,7 +10,6 @@
     height: 100vh;
 }
 .chef .container {
-    border: 1px solid white;
     width: 100%;
     height: 100%;
     display: flex;
@@ -19,7 +18,6 @@
 }
 .chef .container > div {
     flex: 1;
-    border: 1px solid white;
 }
 .chef__left {
     display: flex;
@@ -31,4 +29,16 @@
 }
 .sign {
     width: 250px;
+}
+@media (max-width: 1000px) {
+    .chef .container {
+        flex-direction: column;
+    }
+    .chef__left img {
+        width: 50%;
+    }
+    .chef__right {
+        margin-top: 1rem;
+        text-align: center;
+    }
 }

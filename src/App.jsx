@@ -12,7 +12,6 @@ function App() {
       <Navbar />
       <div className="container"></div>
       <Hero />
-      {/* everything below is breaking on mobile */}
       <About />
       <Menu />
       <Chef />

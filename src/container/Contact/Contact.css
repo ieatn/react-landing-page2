@@ -13,12 +13,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
     width: 100%;
     height: 100%;
 }
 .contact .container > div {
-    border: 1px solid white;
     flex: 1;
 }
 .contact__left {
@@ -35,7 +33,15 @@
     width: 90%;
 }
 @media (max-width: 1000px) {
+    .contact {
+        height: 100%;
+    }
     .contact .container {
         flex-direction: column;
+        text-align: center;
+        gap: 4rem;
+    }
+    .contact .container button {
+        margin: auto;
     }
 }

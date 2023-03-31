@@ -13,7 +13,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid white;
 }
 .gallery .container > div {
     flex: 1;
@@ -23,7 +22,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
     overflow: hidden;
     position: relative;
 }
@@ -31,7 +29,6 @@
 .gallery-carousel {
     overflow-x: scroll;
     height: 100%;
-    border: 1px solid white;
     display: flex;
     gap: 2rem;
     scroll-behavior: smooth;
@@ -61,7 +58,6 @@
 }
 .img-card {
     position: relative;
-    border: 1px solid white;
 }
 .arrows {
     width: 100%;

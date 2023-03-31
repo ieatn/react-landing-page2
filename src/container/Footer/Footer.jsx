@@ -22,7 +22,7 @@ export default function Footer() {
                             <i className="fa-brands fa-twitter"></i>
                             <i className="fa-brands fa-instagram"></i>
                         </div>
-                        <p style={{marginTop: '4rem'}}>2023 ieatn. All Rights Reserved.</p>
+                        <p className='copyright' style={{marginTop: '4rem'}}>2023 ieatn. All Rights Reserved.</p>
                     </div>
                     <div className='footer-right'>
                         <h2>Working Hours</h2>
@@ -31,6 +31,7 @@ export default function Footer() {
                         <br />
                         <p>Saturday - Sunday:</p>
                         <p>07:00 Am - 11:00 Pm</p> 
+                        <p className='mobile-copyright' style={{marginTop: '4rem'}}>2023 ieatn. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>

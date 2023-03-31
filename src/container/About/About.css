@@ -10,7 +10,7 @@
     height: 100vh;
     position: relative;
 }
-h1 {
+.about h1 {
     font-size: 4rem;
 }
 .about .container {
@@ -50,4 +50,27 @@ h1 {
     inset: 0;
     margin: auto;
     z-index: 1;
+}
+@media (max-width: 1000px) {
+    .about h1 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 768px) {
+    .about h1, p {
+        z-index: 1;
+        font-weight: bold;
+    }
+    .about .container {
+        flex-direction: column;
+    }
+    .knife {
+        z-index: 0;
+        opacity: 0.5;
+    }
+    .G {
+        opacity: 0.5;
+        width: 100%;
+    }
+
 }

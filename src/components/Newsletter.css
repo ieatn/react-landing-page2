@@ -6,13 +6,16 @@
     display: grid;
     place-content: center;
     text-align: center;
-    border: 1px solid white;
 }
 .newsletter div {
-    border: 1px solid white;
     display: flex;
     flex: 1;
 }
 .newsletter input {
     width: 100%;
+}
+@media (max-width: 768px) {
+    .newsletter {
+        padding: 1rem;
+    }
 }

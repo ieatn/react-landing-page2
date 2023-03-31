@@ -21,8 +21,8 @@ export default function Video() {
         <div className="video__bg">
             <div className='play-btn' onClick={playVideo}>
                 {play ? 
-                    <i class="fa-solid fa-play"></i> :
-                    <i class="fa-solid fa-pause"></i>
+                    <i className="fa-solid fa-play"></i> :
+                    <i className="fa-solid fa-pause"></i>
                 }
             </div>
         </div>

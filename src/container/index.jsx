@@ -4,6 +4,7 @@ import Menu from './Menu/Menu'
 import Chef from './Chef/Chef'
 import Video from './Video/Video'
 import Awards from './Awards/Awards'
+import Gallery from './Gallery/Gallery'
 
 export {
     Hero,
@@ -11,5 +12,6 @@ export {
     Menu,
     Chef,
     Video,
-    Awards
+    Awards,
+    Gallery
 }

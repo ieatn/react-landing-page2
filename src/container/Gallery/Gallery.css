@@ -1,0 +1,85 @@
+.gallery {
+    height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* why isnt this container max width 90% of section */
+.gallery .container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+}
+.gallery .container > div {
+    flex: 1;
+}
+.gallery__right {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-carousel {
+    overflow-x: scroll;
+    height: 100%;
+    border: 1px solid white;
+    display: flex;
+    gap: 2rem;
+    scroll-behavior: smooth;
+}
+.gallery-carousel::-webkit-scrollbar {
+    display: none;
+}
+.img-card img {
+    height: 100%;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+.img-card:hover img {
+    opacity: 0.3;
+}
+.img-card i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.img-card:hover i {
+    opacity: 1;
+}
+.img-card {
+    position: relative;
+    border: 1px solid white;
+}
+.arrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gold;
+    position: absolute;
+    bottom: 0;
+}
+.arrows i {
+    background-color: black;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

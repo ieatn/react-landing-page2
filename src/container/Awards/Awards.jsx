@@ -16,16 +16,17 @@ export default function Awards() {
   return (
     <section className="awards">
       <div className="container">
-          <div className="awards__left">
-            <p>Awards & Recognition</p>
-            <h1>Our Laurels</h1>
-            <div className="awards__grid">
-              {data.awards.map(i => <AwardCard award={i} key={i.title} />)}
-            </div>
+        <img className='award-logo' src={images.logo} alt="" />
+        <div className="awards__left">
+          <p>Awards & Recognition</p>
+          <h1>Our Laurels</h1>
+          <div className="awards__grid">
+            {data.awards.map(i => <AwardCard award={i} key={i.title} />)}
           </div>
-          <div className="awards__right">
-            <img src={images.laurels} alt="" />
-          </div>
+        </div>
+        <div className="awards__right">
+          <img src={images.laurels} alt="" />
+        </div>
       </div>
     </section>
   )

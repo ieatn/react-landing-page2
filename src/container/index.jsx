@@ -6,6 +6,7 @@ import Video from './Video/Video'
 import Awards from './Awards/Awards'
 import Gallery from './Gallery/Gallery'
 import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
 
 export {
     Hero,
@@ -15,5 +16,6 @@ export {
     Video,
     Awards,
     Gallery,
-    Contact
+    Contact,
+    Footer
 }

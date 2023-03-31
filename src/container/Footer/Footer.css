@@ -1,0 +1,37 @@
+footer {
+    background-image: url('../../assets/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    /* keeps bg image still so scrolling feels smooth */
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    height: 100vh;
+}
+footer .container {
+    width: 70%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 2rem;
+}
+p {
+    opacity: 0.7;
+}
+.social-media {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+}

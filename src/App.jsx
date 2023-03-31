@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
-import { Hero, About, Menu, Chef, Video, Awards, Gallery, Contact } from './container'
+import { Hero, About, Menu, Chef, Video, Awards, Gallery, Contact, Footer } from './container'
 
 
 
@@ -20,6 +20,7 @@ function App() {
       <Awards />
       <Gallery />
       <Contact />
+      <Footer />
     </div>
   )
 }

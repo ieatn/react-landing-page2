@@ -3,7 +3,7 @@ import images from '../../constants/images'
 
 export default function Contact() {
     return (
-        <section className="contact">
+        <section className="contact" id='contact'>
             <div className="container">
                 <div className="contact__left">
                     <p>Contact</p>

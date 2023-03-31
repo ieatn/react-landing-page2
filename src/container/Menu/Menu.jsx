@@ -4,7 +4,7 @@ import MenuItem from '../../components/MenuItem'
 
 export default function Menu() {
   return (
-    <section className="menu">
+    <section className="menu" id='menu'>
         <div className="container">
             <p>Menu That Fits Your Palatte</p>
             <h1>Today's Special</h1>

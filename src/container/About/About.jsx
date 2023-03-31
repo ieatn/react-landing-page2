@@ -3,7 +3,7 @@ import images from '../../constants/images'
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id='about'>
         <div className="container">
             <div className="about__left">
                 <h1>About Us</h1>

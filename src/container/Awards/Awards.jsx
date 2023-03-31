@@ -14,7 +14,7 @@ export default function Awards() {
   )
 
   return (
-    <section className="awards">
+    <section className="awards" id='awards'>
       <div className="container">
         <img className='award-logo' src={images.logo} alt="" />
         <div className="awards__left">
